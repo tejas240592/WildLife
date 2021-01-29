@@ -1,0 +1,49 @@
+body{
+	display: block;
+	background: url("https://offtheshelf.com/wp-content/uploads/2020/03/jungle_iStock-936785762_OTS_site.jpg")center no-repeat fixed;
+	background-size: cover;
+
+}
+h1{
+	font-family: thornbrush;
+	font-size: 6rem;
+	color: rgba(212, 209, 220,0.8);
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	/*text-shadow: 4px 4px 5px #888888;*/
+}
+
+@font-face {
+    font-family: 'thornbrush';
+    src: url('thorn-4bn19-webfont.woff2') format('woff2'),
+         url('thorn-4bn19-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row{
+	/*background-color: rgba(0,0,0,0.5);*/
+}
+#but{
+	float: left;
+	color: white;
+	font-size: 35px;
+	border: 0px;
+	transition: all 1s;
+}
+#but:hover{
+	transform: scale(1.1);
+}
+div{
+	margin: 0px;
+	padding:25px 50px;
+}
+/*.topright{
+	position: absolute;
+	top: 22px;
+	right: 70px;
+	font-size: 18px;
+}*/
+.topright{
+	margin-left: auto; 
+}

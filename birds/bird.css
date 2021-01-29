@@ -1,0 +1,64 @@
+body{
+	display: block;
+	background: url("https://offtheshelf.com/wp-content/uploads/2020/03/jungle_iStock-936785762_OTS_site.jpg")center no-repeat fixed;
+	background-size: cover;
+}
+.ocean{
+	display: block;
+	background: url("https://images.unsplash.com/photo-1491783421027-7e527ccc810a")center no-repeat fixed;
+	background-size: cover;
+}
+.sky{
+	display: block;
+	background: url("https://images.unsplash.com/photo-1472068113808-609faf3a6cf1")center no-repeat fixed;
+	background-size: cover;
+}
+.container{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#but{
+	float: left;
+	color: white;
+	font-size: 35px;
+	border: 0px;
+	transition: all 1s;
+}
+#but:hover{
+	transform: scale(1.1);
+}
+div{
+	margin: 0px;
+	border-bottom: 2px solid rgb(16, 53, 4);
+	
+}
+.topright{
+	top: 22px;
+	right: 70px;
+	font-size: 18px;
+}
+#head{
+	font-family: fantasy;
+	font-size: 3em;
+	color: rgb(230, 159, 0);
+	border-top: 2px solid pink;
+	border-left: 2px solid pink;
+	width:400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 4px;
+}
+img{
+	width:450px;
+	height:300px;
+	margin: 10px;
+	transition:all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+#vertical{
+	width:450px;
+	height:600px;
+}
